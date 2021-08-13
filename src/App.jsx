@@ -9,7 +9,6 @@ import Footer from "./components/footer/Footer";
 
 
 function App() {
-  const[darkMode,setDarkMode]=useState(false);
   const [category,setCategory]=useState("general");
   const [newsArray,setNewsArray]=useState([]);
   const [newsResults,setNewsResults]=useState();

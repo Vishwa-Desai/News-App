@@ -106,14 +106,17 @@
     color:white;    
     cursor:pointer;    
     float:left;
+    margin-top: 10px;
     /* background-color: #000; */
 
     
 }
-nav ul li a{
+nav ul li button{
     margin:10px;
     font-size:20px;
     cursor: pointer;
+    background: transparent;
+    border: none;
     text-decoration: none;
     color: #f2f2f2;
     font-weight:bold;
@@ -129,7 +132,7 @@ nav ul li{
     display:inline-block;
     padding:10px 5px;
 }
-nav ul li a:hover{
+nav ul li button:hover{
     border-bottom: 4px solid #FFE3E3;
     border-top: none;
     margin-bottom: 2px;
@@ -272,7 +275,3 @@ header{
   
 
 }
-
-
-
-

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./topbar.scss"
 import categories from '../../Data/categories';
 import SwipeableTemporaryDrawer from './Swipable';

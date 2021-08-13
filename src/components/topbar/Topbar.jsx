@@ -30,7 +30,7 @@ export default function Topbar({ setCategory }) {
                 <nav className="topbarRight">
                     <ul className="topbarLinks">
                         {categories.map((text, index) => (
-                            <li id="link"> <a key={text} onClick={() => setCategory(text)}>{text}</a></li>
+                            <li id="link"> <button key={text} onClick={() => setCategory(text)}>{text}</button></li>
                         ))}
                     </ul>
                 </nav>

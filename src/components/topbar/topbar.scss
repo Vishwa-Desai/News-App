@@ -105,11 +105,7 @@
     color:white;    
     cursor:pointer;    
     float:left;
-<<<<<<< HEAD
-    margin-top: 5px;
-=======
     margin-top: 10px;
->>>>>>> c6fcc22baf1021ca56b70556f380fadfed4c09a1
     /* background-color: #000; */
 
     
@@ -265,39 +261,3 @@ header{
   
 
 }
-<<<<<<< HEAD
-.readMore{
-        font-size:4vw;
-    }
-
-@media screen and (max-width:600px) {
-    header{
-        display:inline-block;
-        width:100%;
-        padding:10px;
-    }
-    .leftIcons{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-self: flex-end;   
-        color: white;
-        /* margin: 1%; */
-        margin-top: 10%;
-        margin-left: 60%;
-        /* display:none; */
-    }
-    .icon1{
-        display:block;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-    #toggle{
-        display:block;
-        // margin-right: 10px;
-        margin-left: 30px;
-    }
-
-}
-
-=======
->>>>>>> c6fcc22baf1021ca56b70556f380fadfed4c09a1

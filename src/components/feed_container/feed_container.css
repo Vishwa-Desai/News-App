@@ -21,4 +21,9 @@
     transition: background-color 0.2s ease-in;
     /* border-bottom: none; */
 }
-
+@media screen and (max-width:600px) {
+    .loadmore{
+        font-size: 1.8vw;
+    }
+   
+}

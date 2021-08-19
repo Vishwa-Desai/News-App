@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./topbar.scss"
 import categories from '../../Data/categories';
 import SwipeableTemporaryDrawer from './Swipable';
@@ -23,14 +23,11 @@ export default function Topbar({ setCategory }) {
             <header>
 
                 <div className="logo"> <img src="/assets/logo1.png" alt="logo" align="left" className="logoImg" /><span className="logoText"> MyTimes </span> </div>
-
-
-
                 {/* <img src="/assets/person/1.jpg" alt="" className="topbarImg"/>  */}
                 <nav className="topbarRight">
                     <ul className="topbarLinks">
                         {categories.map((text, index) => (
-                            <li id="link"> <a key={text} onClick={() => setCategory(text)}>{text}</a></li>
+                            <li id="link"> <button key={text} onClick={() => setCategory(text)}>{text}</button></li>
                         ))}
                     </ul>
                 </nav>

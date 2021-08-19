@@ -69,7 +69,7 @@
   
 .topbarContainer{
     height:80px;
-    width: 100%;
+    width:100%;
     background-color:#262A53;
     display:flex;
     align-items:center;
@@ -101,19 +101,21 @@
 }
 .logo{
     font-size:24px;
-    margin-left:20px;
     font-weight:bold;
     color:white;    
     cursor:pointer;    
     float:left;
+    margin-top: 5px;
     /* background-color: #000; */
 
     
 }
-nav ul li a{
+nav ul li button{
     margin:10px;
     font-size:20px;
     cursor: pointer;
+    background: transparent;
+    border: none;
     text-decoration: none;
     color: #f2f2f2;
     font-weight:bold;
@@ -129,7 +131,7 @@ nav ul li{
     display:inline-block;
     padding:10px 5px;
 }
-nav ul li a:hover{
+nav ul li button:hover{
     border-bottom: 4px solid #FFE3E3;
     border-top: none;
     margin-bottom: 2px;
@@ -140,6 +142,7 @@ nav ul li a:hover{
 .logoImg{
     height:100px;
     width:100px;
+    margin-left: 1%;
 }
 
 .logoText{
@@ -147,21 +150,7 @@ nav ul li a:hover{
     top: 25%;
     font-family: cursive,sans-serif;
 }
-.input{
-    height:40px;
-    width:300px;
-    font-size: 20px;
-    padding-left: 30px;
-    padding-top:10px;
-    margin-left:20px;
-    border:0;
-    background-color:#ecf0f3;
-    box-sizing: border-box;
-    border-radius: 25px;
-    box-shadow: inset 10px 10px 15px #cbced1, inset -10px -10px 15px white;
-    word-break: break-all;
-    
-}
+
 /*new */
 header{
     display:inline-block;
@@ -272,7 +261,36 @@ header{
   
 
 }
+.readMore{
+        font-size:4vw;
+    }
 
+@media screen and (max-width:600px) {
+    header{
+        display:inline-block;
+        width:100%;
+        padding:10px;
+    }
+    .leftIcons{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-self: flex-end;   
+        color: white;
+        /* margin: 1%; */
+        margin-top: 10%;
+        margin-left: 60%;
+        /* display:none; */
+    }
+    .icon1{
+        display:block;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #toggle{
+        display:block;
+        // margin-right: 10px;
+        margin-left: 30px;
+    }
 
-
+}
 

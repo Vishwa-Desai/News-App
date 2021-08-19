@@ -23,7 +23,7 @@ export default function Feed({newsItem}) {
                                 <span className="author">
                                     <a href={newsItem.url} tarhet="__blank">
                                     </a>
-                                    <b>short</b> {" "}
+                                    <b className="b">short</b> {" "}
                                     <span className="muted">
                                     by {newsItem.author?newsItem.author:"unknown"} /{" "}
                                      {

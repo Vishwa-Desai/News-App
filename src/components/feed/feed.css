@@ -104,7 +104,9 @@
     display:flex;
     justify-content: flex-end;
 }
-
+.readMore{
+    font-size:1vw;
+}
 @media screen and (max-width:1387px) {
     .feed{
         width:80%;
@@ -119,5 +121,40 @@
     .newsText{
         padding:10px;
         font-size:18px;
+    }
+    .readMore{
+        font-size:2vw;
+    }
+}
+@media screen and (max-width:600px) {
+    .feed{
+        width:80%;
+        height: auto;
+    }
+    
+    .profileImg{
+        height:auto;
+        width:100%;
+    }
+
+    .newsText{
+        padding:5%;
+        font-size:2vw;
+    }
+    .newsTitle
+    {
+        font-size:5vw;
+    }
+    .muted{
+        font-size:3vw;
+    }
+    .desc{
+        font-size:4vw;
+    }
+    .readMore{
+        font-size:3vw;
+    }
+    .b{
+        font-size:4vw;
     }
 }

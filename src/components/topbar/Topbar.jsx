@@ -22,7 +22,7 @@ export default function Topbar({ setCategory }) {
         <div className="topbarContainer">
             <header>
 
-                <div className="logo"> <img src="/assets/logo1.png" alt="logo" align="left" className="logoImg" /><span className="logoText"> MyTimes </span> </div>
+                <div className="logo"> <img src="../../../public/assets/logo1.png" alt="logo" align="left" className="logoImg" /><span className="logoText"> MyTimes </span> </div>
                 {/* <img src="/assets/person/1.jpg" alt="" className="topbarImg"/>  */}
                 <nav className="topbarRight">
                     <ul className="topbarLinks">
